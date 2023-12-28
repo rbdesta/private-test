@@ -57,7 +57,7 @@ function App() {
 
     <section id='portfolio' className='mt-10'>
       <h1 className='text-xl font-medium'>Portfolio</h1>
-      <p className='mt-1 text-md'>Here are some projects that I have managed.</p>
+      <p className='mt-1 text-md'>Here...</p>
     </section>
 
     <section id='contact' className='my-8'>
@@ -66,25 +66,25 @@ function App() {
     </section>
 
     <section id="footer" className='mt-5 rounded bg-gray-500 py-8 px-8'>
-      <div className='text-white md:text-center'>
+      <div className='text-white sm:text-left text-center'>
         <h1 className='font-medium text-lg'>Contacts</h1>
 
-        <ul className='md:flex justify-center gap-4'>
-          <li className='flex items-center gap-2'>
+        <ul className='md:flex justify-center sm:justify-start gap-4'>
+          <li className='flex items-center sm:text-left gap-2'>
             <AiFillMail />
             <p>rbdesta10@gmail.com</p>
           </li>
-          <li className='flex items-center gap-2'>
+          <li className='flex items-center sm:text-left gap-2'>
             <AiFillEnvironment />
             <p>Quezon City, Philippines</p>
           </li>
-          <li className='flex items-center gap-2'>
+          <li className='flex items-center sm:text-left gap-2'>
             <AiFillPhone/>
             <p>09197654321</p>
           </li>
         </ul>
 
-        <div className='flex text-xl text-white gap-4 mt-2 md:justify-center'>
+        <div className='flex text-xl text-white gap-4 mt-2 sm:text-left text-center'>
           <AiFillFacebook />
           <AiFillGithub />
           <AiFillInstagram />
@@ -92,7 +92,7 @@ function App() {
           <AiFillYoutube />
         </div>
         <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"/>
-        <p className="text-center text-sm text-gray-300 sm:text-center">
+        <p className="text-sm text-gray-300 sm:text-right text-center">
           © 2023. All Rights Reserved.
         </p>
       </div>

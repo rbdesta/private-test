@@ -1,7 +1,9 @@
+import React from 'react';
 import './App.css';
 import Navbar from './Navbar'
 import Contact from './Contacts';
 import {AiFillLinkedin, AiFillGithub, AiFillInstagram, AiFillFacebook, AiFillYoutube, AiFillMail, AiFillEnvironment, AiFillPhone} from 'react-icons/ai'
+import profileImage from './assets/images/image_profile_nobackground.jpg'
 
 function App() {
   return (
@@ -11,7 +13,7 @@ function App() {
 
     <section id='home' className='min-h-screen text-center mt-4 flex flex-col justify-center '>
         <div className="mx-auto rounded-full border-2 w-56 h-56 relative overflow-hidden md:h-96 md:w-96 mb-2">
-          <img src='/image_profile_nobackground.jpg' layout="fill" objectFit="cover" alt='image_profile' />
+          <img src={profileImage} layout="fill" objectfit="cover" alt='image_profile' />
         </div>
         <h1 className='text-2xl md:text-2xl font-medium text-blue-500 mb-3'>Randolf Brian Esta</h1>
         <h3 className='text-lg md:text-lg font-semibold'>Frontend Developer</h3>
